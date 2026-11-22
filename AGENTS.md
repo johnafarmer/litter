@@ -1,5 +1,7 @@
 # Repository Guidelines
 
+John's global rules come first: `fleet/global.md` in johnafarmer/agent-desktop, which every fleet machine loads as `~/.claude/CLAUDE.md` and `~/.codex/AGENTS.md`. Nothing in this file overrides them.
+
 ## Project Structure & Module Organization
 - `Sources/CodexIOS/` contains the iOS app code.
 - `Sources/CodexIOS/Views/` holds SwiftUI screens, `Models/` contains app state/session logic, and `Bridge/` contains JSON-RPC and C FFI bridge code.
